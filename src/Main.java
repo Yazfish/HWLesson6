@@ -111,10 +111,11 @@ public class Main {
         }
         System.out.println("\n");
         int num = 10;
-        while (num > 0) {
-            System.out.print(num + " ");
-            num = num - 1;
+        for ( int i = num; i > 0; i --){
+            System.out.print(i + " ");
         }
+        System.out.println("\n");
+
         System.out.println("\n Задача 3 \n");
         int population = 12_000_000;
         int birthRatePer1000 = 17;
